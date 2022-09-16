@@ -4,7 +4,7 @@
 
     #header-home {
         height: 30rem;
-        
+
         #header-content {
             padding-top: 3rem;
         }
@@ -28,11 +28,13 @@
             padding: 1rem;
         }
     }
+
     #header {
         &-home {
             height: 10rem;
             border-bottom: 3px solid $main-color;
             background-position: 20% 30%;
+
             .header-content {
                 display: none;
             }
@@ -45,9 +47,9 @@
 
     // STACK GRID
 
-    #home-a .specials, 
-    #home-b .stats, 
-    #home-c .process, 
+    #home-a .specials,
+    #home-b .stats,
+    #home-c .process,
     #about-d .testimonials,
     .items {
         grid-template-columns: 1fr;
@@ -58,11 +60,12 @@
             .specials div {
                 border-bottom: 1px $light-color solid;
                 padding-bottom: 1rem;
+
                 &:last-child {
                     border: none;
-                    padding-bottom: 0; 
+                    padding-bottom: 0;
                 }
-            } 
+            }
         }
 
         &-b {
@@ -77,12 +80,12 @@
     #about {
         &-a {
             .about-info {
-                grid-template-areas: 
-                'bioimage'
-                'bio'
-                'aw1'
-                'aw2'
-                'aw3';
+                grid-template-areas:
+                    'bioimage'
+                    'bio'
+                    'aw1'
+                    'aw2'
+                    'aw3';
             }
 
 
@@ -98,22 +101,23 @@
     #contact {
         &-a {
             .text-fields {
-                grid-template-areas: 
-                'name'
-                'subject'
-                'email'
-                'phone'
-                'message';
+                grid-template-areas:
+                    'name'
+                    'subject'
+                    'email'
+                    'phone'
+                    'message';
             }
         }
+
         &-b {
             padding: 0;
 
             .contact-info {
                 grid-template-columns: repeat(1, 1fr);
                 font-size: 1rem;
-                
-                
+
+
                 div {
                     border-bottom: 1px #555 solid;
                     padding: 1rem 0;
@@ -148,7 +152,7 @@
         }
     }
 
-    
+
 }
 
 // Landscape
