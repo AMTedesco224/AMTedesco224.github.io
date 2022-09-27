@@ -568,13 +568,17 @@ img {
 
 .video {
   position: relative;
-  width: 50%;
-  height: 630px;
+  width: 50vw;
   border: 5px solid black;
 }
 
 
 @media (max-width: 900px) {
+  .video {
+    height: auto;
+  }
+
+
   #header-home {
     height: 30rem;
   }
